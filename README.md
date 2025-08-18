@@ -21,6 +21,8 @@ A aplicação expõe uma API REST com **CRUD completo** de **Brinquedos**, **Cat
 - Oracle JDBC Driver
 - Springdoc OpenAPI (Swagger UI)
 
+<img width="799" height="447" alt="spring" src="https://github.com/user-attachments/assets/9f77a875-445a-4695-b3fe-13c6b9e97f85" />
+
 ---
 
 ## ⚙️ Configuração (`application.properties`)
