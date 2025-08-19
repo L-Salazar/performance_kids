@@ -89,6 +89,22 @@ public class BrinquedoController {
         return ResponseEntity.ok(assembler.toModel(toDTO(atualizado)));
     }
 
+    @Operation(summary = "Altera parcialmente um brinquedo por ID",
+            responses = {
+                    @ApiResponse(responseCode = "200", description = "Sucesso",
+                            content = @Content(schema = @Schema(implementation = BrinquedoDTO.class))),
+                    @ApiResponse(responseCode = "404", description = "Não encontrado")
+            })
+    @PatchMapping("/{id}")
+    public ResponseEntity<EntityModel<BrinquedoDTO>> atualizarParcialmente(@PathVariable Long id,
+                                                                           @RequestBody BrinquedoDTO dto) {
+        Brinquedo brinquedoAtualizado = brinquedoService.atualizarParcial(id, fromDTO(dto));
+
+        BrinquedoDTO brinquedoDTO = toDTO(brinquedoAtualizado);
+
+        return ResponseEntity.ok(assembler.toModel(brinquedoDTO));
+    }
+
     @Operation(summary = "Deleta um brinquedo por ID",
             responses = { @ApiResponse(responseCode = "204", description = "Sem conteúdo") })
     @DeleteMapping("/{id}")
