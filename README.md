@@ -236,5 +236,17 @@ http://localhost:8081/swagger-ui.html
 - Regra de coerência **categoria × tamanho** e **classificação** já é validada no Service.
 - Em produção, proteger endpoints e não expor senha em DTOs (já adotado no `FuncionarioDTO`).
 
----
+---<img width="1159" height="691" alt="get_brinquedo" src="https://github.com/user-attachments/assets/95750518-9ba9-4e0d-a342-62a7f436bb2a" />
+<img width="1159" height="318" alt="get_categorias" src="https://github.com/user-attachments/assets/ea9aef5a-88b5-4a6f-9185-e22b914d8e05" />
+<img width="1161" height="256" alt="delete_funcionario" src="https://github.com/user-attachments/assets/89e598df-6be2-466c-b43d-509b20ed9ddb" />
+<img width="1161" height="283" alt="update_funcionario" src="https://github.com/user-attachments/assets/cbed9bea-04c5-4ab8-b13d-0f14141af077" />
+<img width="960" height="270" alt="categoria" src="https://github.com/user-attachments/assets/d6f0ba0b-5953-40ba-82e8-c87c024de59a" />
+<img width="1159" height="540" alt="brinquedo" src="https://github.com/user-attachments/assets/eb25c694-5152-4fa8-81c1-5a955013446d" />
+<img width="1159" height="318" alt="funcionario" src="https://github.com/user-attachments/assets/283fce3e-90c2-473a-b439-ec9fdfaebdaf" />
+<img width="1159" height="318" alt="get_funcionario" src="https://github.com/user-attachments/assets/e5f4931f-46db-48fe-8d57-3df1e4eae39b" />
+
+
+
+
+
 
